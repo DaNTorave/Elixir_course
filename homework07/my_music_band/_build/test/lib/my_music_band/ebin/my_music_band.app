@@ -1,0 +1,11 @@
+{application,my_music_band,
+             [{modules,['Elixir.MyMusicBand','Elixir.MyMusicBand.Band',
+                        'Elixir.MyMusicBand.Drummer',
+                        'Elixir.MyMusicBand.Guitarist',
+                        'Elixir.MyMusicBand.Model.Sound',
+                        'Elixir.MyMusicBand.Vocalist']},
+              {optional_applications,[]},
+              {applications,[kernel,stdlib,elixir,logger]},
+              {description,"my_music_band"},
+              {registered,[]},
+              {vsn,"0.1.0"}]}.
